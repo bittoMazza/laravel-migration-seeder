@@ -14,11 +14,11 @@ class TrainsTableSeeder extends Seeder
     {
         $trains =[
             [
-                'agency' => "Unagenziasegreta",
-                'station_start' => "Rimini",
-                'station_arrive' => "Ferrara",
-                'time_start' => "2021/10/20 09:00:00",
-                'time_arrive' => "2021/10/20 10:00:00",
+                'agency' => "dsadasdsa",
+                'station_start' => "Milano Centrale",
+                'station_arrive' => "Napoli",
+                'time_start' => "10:30:00",
+                'time_arrive' => "15:00:00",
                 'train_code' => "ADSDA62645",
                 'num_wagons' => 8,
                 "is_in_time" => 0,
@@ -28,8 +28,8 @@ class TrainsTableSeeder extends Seeder
                 'agency' => "Non Te lo dico",
                 'station_start' => "Firenze",
                 'station_arrive' => "Bologna",
-                'time_start' => "2022/10/04 08:00:00",
-                'time_arrive' => "2022/10/04 09:00:00",
+                'time_start' => "08:00:00",
+                'time_arrive' => "09:00:00",
                 'train_code' => "GDSFGAS822",
                 'num_wagons' => 9,
                 "is_in_time" => 1,

@@ -6,7 +6,7 @@
         <h2 class="text-center text-white"> INFO TRENO</h2>
         <div class="col-12 bg-white d-flex px-5 py-5 border border-dark">
             <div class="col-3 bg-dark text-center py-3">
-                <h3 class="text-white">Stai viaggiando con : </h3>
+                <h3 class="text-white pb-4">Stai viaggiando con : </h3>
                 <span class="d-block h4 text-danger">{{ $train->agency }}</span>
             </div>
             <div class="col-9 d-flex text-center justify-content-between px-4">
@@ -20,12 +20,16 @@
                 </div> 
                 <div>
                     <span class="h3 main-color fw-bold">Orario di partenza</span>
-                    <span class="d-block h5 mt-5"></span>
+                    <span class="d-block h5 mt-5">{{ $train->time_start }}</span>
                 </div> 
                 <div>
-                    <span class="h3 main-color">Orario di arrivo</span>
-                    <span class="d-block h5 mt-5">{{  }}</span>
-                </div>                  
+                    <span class="h3 main-color fw-bold">Orario di arrivo</span>
+                    <span class="d-block h5 mt-5">{{ $train->time_arrive }}</span>
+                </div> 
+                <div>
+                    <span class="h3 main-color fw-bold">Codice Treno</span>
+                    <span class="d-block h5 mt-5">{{ $train->train_code }}</span>
+                </div>                 
             </div>
         </div>
     </div>
